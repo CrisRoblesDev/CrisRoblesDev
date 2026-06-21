@@ -5,9 +5,6 @@
 <hr>
 <img width="1536" height="750" alt="Imagen principal @shido_kagenoo" src="https://github.com/user-attachments/assets/4e1a4f8a-8af0-47f7-81a4-96b12cde29a3" />
 <p align="left">
-  <a href="https://instagram.com/shido_kagenoo">
-    <img src="https://img.shields.io/badge/Instagram-@shido__kagenoo-000000?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
 
   <a href="https://discord.com/users/1239314611631558696">
     <img src="https://img.shields.io/badge/Discord-@shiro__dlx-000000?style=for-the-badge&logo=discord&logoColor=white">
