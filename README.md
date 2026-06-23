@@ -59,9 +59,13 @@
 
 ### 🖥️ 1. VmOS - Escritorio Virtual Web Multi-Ventana
 Un sofisticado entorno de escritorio virtual interactivo basado en *Glassmorphism* (efecto de cristal esmerilado) que se ejecuta en cualquier navegador web.
-
+### Prototipo
 <div align="center">
   <img src="assets/vmos_desktop.png" alt="VmOS Desktop Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
+### Final
+<div align="center">
+  <img src="assets/VmOS.png" alt="VmOS Desktop Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
 * **Contexto del Proyecto**: Diseñado como un entorno sandbox web interactivo para integrar múltiples herramientas de utilidad y entretenimiento (editores, reproductores de media, emuladores) en una sola pestaña del navegador. Resuelve la necesidad de tener un sistema de escritorio virtual modular, escalable y persistente sin sobrecargar el hardware del cliente.
@@ -75,9 +79,13 @@ Un sofisticado entorno de escritorio virtual interactivo basado en *Glassmorphis
 
 ### 🛒 2. KatPos - Sistema de Punto de Venta (POS) de Alto Rendimiento
 Una solución de facturación, caja y gestión de inventario robusta y ultra-rápida compilada para escritorio.
-
+### Prototipo
 <div align="center">
   <img src="assets/katpos_sales.png" alt="KatPos Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
+### Final
+<div align="center">
+  <img src="assets/KatPOS.png" alt="KatPos Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
 * **Contexto del Proyecto**: Desarrollado para pequeños y medianos comercios locales que requieren un punto de venta (POS) y control de stock extremadamente rápido. Al ejecutarse de forma local y offline en el escritorio, evita las caídas de internet y la latencia de los servidores en la nube típicos de los sistemas web convencionales.
@@ -92,11 +100,14 @@ Una solución de facturación, caja y gestión de inventario robusta y ultra-rá
 
 ### 🇯🇵 3. Hikaro - Traductor e Historial de Japonés Local & API
 Una aplicación de escritorio híbrida para traducción y aprendizaje del idioma japonés.
-
+### Prototipo
 <div align="center">
   <img src="assets/hikaro_translator.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
-
+### Final
+<div align="center">
+  <img src="assets/Hikaro.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
 * **Contexto del Proyecto**: Una herramienta interactiva de escritorio desarrollada para entusiastas, estudiantes y traductores de idioma japonés. Combina búsquedas binarias en un diccionario local español-japonés de más de 170k definiciones con traducciones dinámicas en línea mediante una API externa para frases complejas.
 * **Tecnologías Usadas y su Rol**:
   * **Tauri (Rust)**: Proporciona la envoltura nativa de escritorio híbrida, asegurando una carga instantánea y una comunicación segura con el sistema.
