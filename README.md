@@ -6,7 +6,7 @@
 </div>
 
 <p> ⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑ <p>
-<h1> Sobre mi
+<h1> Sobre mi </h1>
 <p>➭ Creación de paginas web, escritorio y móviles.<p>
 <p>➭ Soporte en areas de software, hardware y redes.<p>
   
