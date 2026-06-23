@@ -58,85 +58,68 @@
 ## 🚀 Proyectos Destacados
 
 ### 🖥️ 1. VmOS - Escritorio Virtual Web Multi-Ventana
-Un sofisticado entorno de escritorio virtual interactivo que se ejecuta directamente sobre el navegador web. Diseñado con una interfaz extremadamente premium basada en *Glassmorphism* (efecto de cristal esmerilado), micro-animaciones fluidas y soporte multiventana avanzado.
+Un sofisticado entorno de escritorio virtual interactivo basado en *Glassmorphism* (efecto de cristal esmerilado) que se ejecuta en cualquier navegador web.
 
 <div align="center">
   <img src="assets/vmos_desktop.png" alt="VmOS Desktop Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-#### ✨ Características Destacadas:
-* 🖥️ **Multi-Window Manager**: Ventanas flotantes semitransparentes arrastrables, apilables y redimensionables de manera fluida, que se minimizan en una barra de tareas inteligente.
-* 🎨 **Personalización Completa**: Configuración dinámica de fondos de pantalla HD, selector de colores de acento de interfaz y estilos de escritorio personalizables (libre o cuadrícula).
-* 📂 **Gestor de Archivos Inteligente**: Sistema de carpetas agrupadas (estilo Android) que permite arrastrar y mover iconos dentro de directorios, guardando la estructura y archivos persistentemente en la nube.
-* ☁️ **Persistencia Firebase**: Sincronización instantánea en tiempo real de todos tus archivos, carpetas, notas y preferencias del sistema.
-* 🛠️ **Widgets Incorporados**: Widget de Reloj en tiempo real, Clima interactivo conectado por API, Calendario de eventos y un Kanban de tareas interactivo.
-* 🚀 **Colección de Aplicaciones Integradas**:
-  * **Navegador Web**: Renderizador y buscador funcional minimalista.
-  * **Media Players**: Reproductor de música y videos de YouTube con buscador de canciones integrado.
-  * **Consola y Emuladores**: Emulador retro listo para ejecutar ROMs de consolas clássicas (NES, GameBoy, SNES, Genesis).
-  * **Herramientas de Utilidad**: Editor de Texto rápido, Visor de documentos PDF, Calculadora científica y editor gráfico de Paint.
-  * **Monitoreo de Telemetría**: Widget de sistema que muestra el consumo dinámico de CPU y RAM con gráficas en tiempo real.
+* **Contexto del Proyecto**: Diseñado como un entorno sandbox web interactivo para integrar múltiples herramientas de utilidad y entretenimiento (editores, reproductores de media, emuladores) en una sola pestaña del navegador. Resuelve la necesidad de tener un sistema de escritorio virtual modular, escalable y persistente sin sobrecargar el hardware del cliente.
+* **Tecnologías Usadas y su Rol**:
+  * **Vanilla HTML5 & CSS3 (Grid, Flexbox, Glassmorphism)**: Usados para crear una interfaz dinámica ultra-responsiva que imita un sistema operativo de escritorio real, con desenfoques de ventana (*backdrop-filter*) y animaciones fluidas sin depender de frameworks frontend pesados.
+  * **JavaScript Vanilla (ES6 Modules)**: Controla el gestor de ventanas (Window Manager) de alto rendimiento, el arrastre/redimensionamiento de capas, el foco inteligente y la lógica del grid de iconos.
+  * **Firebase Realtime DB**: Proporciona sincronización en la nube y persistencia en tiempo real para el sistema de archivos del usuario, permitiendo crear, renombrar y mover carpetas agrupadas (estilo Android) y archivos.
+  * **Consola de Emulación Retro**: Integración de intérpretes web de ROMs clásicas (NES, GameBoy, SNES, Genesis) para habilitar gaming interactivo en el navegador.
 
 ---
 
 ### 🛒 2. KatPos - Sistema de Punto de Venta (POS) de Alto Rendimiento
-Una solución de facturación, caja y gestión de inventario robusta y ultra-rápida. Desarrollada para escritorio mediante Tauri, React y TypeScript, garantizando la velocidad y seguridad de bases de datos locales sin dependencia de servidores externos lentos.
+Una solución de facturación, caja y gestión de inventario robusta y ultra-rápida compilada para escritorio.
 
 <div align="center">
   <img src="assets/katpos_sales.png" alt="KatPos Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-#### ✨ Características Destacadas:
-* 💰 **Terminal de Ventas (POS) Veloz**: Interfaz de caja registradora interactiva. Permite buscar productos, añadirlos al carrito con atajos, aplicar descuentos/impuestos al instante y completar transacciones en segundos.
-* 📦 **Gestor de Inventarios**: Catálogo completo de mercancías con soporte para imágenes, categorías, precios de costo/venta e indicadores de inventario mínimo.
-* 🔔 **Notificador de Stock en Tiempo Real**: Alertas visuales inmediatas cuando un producto está por agotarse, evitando pérdidas de stock.
-* 💵 **Arqueo y Control de Caja (CashView)**: Módulo de flujo de caja para registrar ingresos manuales, gastos de caja y reportes detallados del balance diario.
-* 📊 **Estadísticas Gráficas**: Visualización interactiva del historial de ventas semanales y mensuales a través de reportes gráficos detallados con *Recharts*.
-* 🇺🇸/🇪🇸 **Internacionalización (i18n)**: Traducción completa de toda la interfaz en tiempo real mediante un selector interactivo de idiomas.
-* ⌨️ **Diseño Optimizado para Teclados**: Uso de atajos rápidos globales (F1-F6) para alternar instantáneamente entre ventas, inventario, reportes y configuraciones sin usar el ratón.
+* **Contexto del Proyecto**: Desarrollado para pequeños y medianos comercios locales que requieren un punto de venta (POS) y control de stock extremadamente rápido. Al ejecutarse de forma local y offline en el escritorio, evita las caídas de internet y la latencia de los servidores en la nube típicos de los sistemas web convencionales.
+* **Tecnologías Usadas y su Rol**:
+  * **Tauri v2 (Rust Core Backend)**: Actúa como el motor del sistema de escritorio de alta eficiencia, compilando la aplicación en un ejecutable ultra-liviano (menos de 10MB) con un consumo insignificante de memoria RAM y acceso nativo al hardware.
+  * **React 19 & TypeScript**: Estructura de forma segura el catálogo dinámico, el buscador y el carrito de compras de alta velocidad, garantizando la consistencia de los datos en toda la interfaz de usuario.
+  * **TailwindCSS**: Utilizado para maquetar de forma ágil un sistema de temas oscuro/claro y componentes interactivos responsivos.
+  * **Recharts**: Renderiza gráficas de barra y de línea interactivas del histórico de ventas y ganancias del negocio de forma nativa.
+  * **Atajos de Teclado de Navegación**: Asigna las teclas globales `F1-F6` para alternar vistas sin requerir el mouse, optimizando la productividad de los cajeros en ambientes de alta afluencia.
 
 ---
 
 ### 🇯🇵 3. Hikaro - Traductor e Historial de Japonés Local & API
-Una aplicación de escritorio híbrida para traducción y aprendizaje de japonés. Funciona tanto de manera local (sin conexión a internet) utilizando un diccionario optimizado estructurado de español-japonés (`dict-es-ja.json`), como de manera remota consumiendo una API de traducción en tiempo real.
+Una aplicación de escritorio híbrida para traducción y aprendizaje del idioma japonés.
 
 <div align="center">
   <img src="assets/hikaro_translator.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-#### 📁 Estructura del Proyecto:
-* **`src/index.html`**: Interfaz de usuario estructurada que contiene los selectores de idioma (Español ⇄ Japonés), selectores de modo de diccionario, cajas de entrada de texto y contenedores de traducción.
-* **`src/main.js`**: Núcleo lógico que inicializa la aplicación Tauri, implementa los algoritmos de búsqueda binaria para el diccionario local e integra peticiones cURL asíncronas para el traductor API.
-* **`src/styles.css`**: Hoja de estilos con variables de diseño personalizadas que otorgan un look oscuro, moderno y adaptado a diferentes pantallas.
-* **`src/assets/dict-es-ja.json`**: Base de datos léxica compilada de más de 3.5 MB optimizada para búsquedas locales de palabras con su respectivo Romaji y definiciones.
-* **`src-tauri/`**: Capa del backend de Tauri escrita en **Rust** que compila la aplicación a un ejecutable de escritorio de pocos megabytes, manejando integraciones nativas del sistema operativo.
-
-#### ⚙️ Tecnologías Usadas:
-* **Core**: HTML5, Vanilla CSS3 (Custom Variables), JavaScript Vanilla (ES6 Modules).
-* **Escritorio**: Tauri (Rust Core Backend).
-* **Datos**: Compilación JSON optimizada de la base de datos de JMDict.
+* **Contexto del Proyecto**: Una herramienta interactiva de escritorio desarrollada para entusiastas, estudiantes y traductores de idioma japonés. Combina búsquedas binarias en un diccionario local español-japonés de más de 170k definiciones con traducciones dinámicas en línea mediante una API externa para frases complejas.
+* **Tecnologías Usadas y su Rol**:
+  * **Tauri (Rust)**: Proporciona la envoltura nativa de escritorio híbrida, asegurando una carga instantánea y una comunicación segura con el sistema.
+  * **Búsqueda Indexada (JavaScript ES6)**: Realiza consultas en milisegundos en el diccionario de datos estructurado en JSON local (`dict-es-ja.json`), permitiendo su uso completo sin conexión a internet.
+  * **APIs de Traducción & Conversor Romaji**: Conexión asíncrona a traductores en línea y desglose automático de la pronunciación fonética en Romaji para simplificar la lectura de caracteres kanji/kana.
+  * **Vanilla CSS (Diseño Oscuro)**: Estiliza una interfaz limpia orientada al contraste visual para sesiones prolongadas de lectura y estudio.
 
 ---
 
 ### 💳 4. E-commerce Flow - Pasarela de Pago Integrada
-Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena **Flow** (Webpay, Mach, Servipag, etc.). Desarrollado con PHP bajo el framework CodeIgniter 4, gestionando el ciclo completo de vida de una transacción electrónica: desde el carrito de compras hasta la confirmación de pago por webhook y emisión automática de boletas de compra.
+Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena **Flow** (Webpay, Mach, Servipag, etc.).
 
 <div align="center">
   <img src="assets/ecommerce_flow.png" alt="E-commerce Flow Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-#### 📁 Estructura del Proyecto:
-* **`app/Config/Routes.php`**: Mapa de enrutamiento que define endpoints limpios para el catálogo, el procesamiento de checkout (`/checkout/process`), y el webhook de confirmación (`/flow/confirm`).
-* **`app/Controllers/CheckoutController.php`**: Controlador transaccional que crea registros de órdenes en estado *PENDING*, genera la solicitud de cobro en Flow, recibe de forma invisible (webhook) la confirmación de transacción aprobada, y actualiza el estado a *PAID*.
-* **`app/Libraries/FlowApi.php`**: Librería personalizada para establecer comunicación segura por cURL con la API de Flow, realizando la firma digital mandatoria mediante encriptación `HMAC SHA256` utilizando la llave secreta.
-* **`app/Models/`**: Modelos de Active Record (`ProductModel`, `OrderModel`, `OrderItemModel`, `ReceiptModel`) para persistencia, estructurados con campos seguros (`allowedFields`) contra inyecciones SQL.
-* **`app/Database/Migrations/`**: Archivos de control de migraciones para versionar la base de datos (creación automática en MySQL de las tablas de usuarios, productos, órdenes y boletas).
-
-#### ⚙️ Tecnologías Usadas:
-* **Backend**: PHP 8.2, CodeIgniter 4 Framework (Patrón MVC).
-* **Base de Datos**: MySQL / MariaDB (con versionado por Migraciones).
-* **Frontend**: HTML5, CSS3, Bootstrap 5.
-* **Integraciones**: API Flow Sandbox (tarjetas de prueba), ngrok (túnel seguro para webhooks locales).
+* **Contexto del Proyecto**: Prototipo transaccional desarrollado para resolver la complejidad técnica de conectar una tienda virtual con el proveedor de pagos chileno Flow (Webpay/Mach), asegurando que las transacciones sean válidas, que no haya manipulación de precios en el cliente y que las boletas se emitan automáticamente de forma asíncrona tras la confirmación de pago.
+* **Tecnologías Usadas y su Rol**:
+  * **PHP 8.2 & CodeIgniter 4 (MVC)**: Proporcionan la arquitectura del servidor para gestionar de forma segura las sesiones persistentes del carrito, el catálogo de productos y los endpoints transaccionales.
+  * **Algoritmo de Firma HMAC SHA256**: Genera la firma digital obligatoria de parámetros ordenados alfabéticamente para autenticar las peticiones ante la API de Flow, previniendo fraudes y alteraciones en el proceso.
+  * **Webhooks & cURL (Flow API)**: Gestiona la recepción de notificaciones asíncronas de Flow en el callback `/flow/confirm` para procesar el pago y emitir la boleta fiscal en la base de datos de manera invisible para el cliente.
+  * **MySQL / MariaDB**: Almacena las órdenes transaccionales, el desglose de productos comprados (`order_items`) y las boletas emitidas (`receipts`) con integridad referencial.
+  * **ngrok**: Abre un túnel seguro a internet para permitir que los servidores de Flow se comuniquen con el webhook local de desarrollo.
 
 ---
 
@@ -161,7 +144,15 @@ Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena
   <h3>📫 ¡Conectemos!</h3>
   <p>Si te interesa colaborar en algún desarrollo, tienes dudas sobre mis proyectos o buscas un desarrollador de software a medida, ¡contáctame!</p>
   
-  <a href="https://github.com/CrisRoblesDev">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
+  <p>
+    <a href="mailto:crisroblesherrera99@gmail.com">
+      <img src="https://img.shields.io/badge/Email-crisroblesherrera99%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://wa.me/56933465843">
+      <img src="https://img.shields.io/badge/WhatsApp-%2B56%209%203346%205843-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+    </a>
+    <a href="https://github.com/CrisRoblesDev">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+  </p>
 </div>
