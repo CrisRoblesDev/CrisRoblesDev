@@ -97,6 +97,49 @@ Una solución de facturación, caja y gestión de inventario robusta y ultra-rá
 
 ---
 
+### 🇯🇵 3. Hikaro - Traductor e Historial de Japonés Local & API
+Una aplicación de escritorio híbrida para traducción y aprendizaje de japonés. Funciona tanto de manera local (sin conexión a internet) utilizando un diccionario optimizado estructurado de español-japonés (`dict-es-ja.json`), como de manera remota consumiendo una API de traducción en tiempo real.
+
+<div align="center">
+  <img src="assets/hikaro_translator.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
+
+#### 📁 Estructura del Proyecto:
+* **`src/index.html`**: Interfaz de usuario estructurada que contiene los selectores de idioma (Español ⇄ Japonés), selectores de modo de diccionario, cajas de entrada de texto y contenedores de traducción.
+* **`src/main.js`**: Núcleo lógico que inicializa la aplicación Tauri, implementa los algoritmos de búsqueda binaria para el diccionario local e integra peticiones cURL asíncronas para el traductor API.
+* **`src/styles.css`**: Hoja de estilos con variables de diseño personalizadas que otorgan un look oscuro, moderno y adaptado a diferentes pantallas.
+* **`src/assets/dict-es-ja.json`**: Base de datos léxica compilada de más de 3.5 MB optimizada para búsquedas locales de palabras con su respectivo Romaji y definiciones.
+* **`src-tauri/`**: Capa del backend de Tauri escrita en **Rust** que compila la aplicación a un ejecutable de escritorio de pocos megabytes, manejando integraciones nativas del sistema operativo.
+
+#### ⚙️ Tecnologías Usadas:
+* **Core**: HTML5, Vanilla CSS3 (Custom Variables), JavaScript Vanilla (ES6 Modules).
+* **Escritorio**: Tauri (Rust Core Backend).
+* **Datos**: Compilación JSON optimizada de la base de datos de JMDict.
+
+---
+
+### 💳 4. E-commerce Flow - Pasarela de Pago Integrada
+Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena **Flow** (Webpay, Mach, Servipag, etc.). Desarrollado con PHP bajo el framework CodeIgniter 4, gestionando el ciclo completo de vida de una transacción electrónica: desde el carrito de compras hasta la confirmación de pago por webhook y emisión automática de boletas de compra.
+
+<div align="center">
+  <img src="assets/ecommerce_flow.png" alt="E-commerce Flow Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
+
+#### 📁 Estructura del Proyecto:
+* **`app/Config/Routes.php`**: Mapa de enrutamiento que define endpoints limpios para el catálogo, el procesamiento de checkout (`/checkout/process`), y el webhook de confirmación (`/flow/confirm`).
+* **`app/Controllers/CheckoutController.php`**: Controlador transaccional que crea registros de órdenes en estado *PENDING*, genera la solicitud de cobro en Flow, recibe de forma invisible (webhook) la confirmación de transacción aprobada, y actualiza el estado a *PAID*.
+* **`app/Libraries/FlowApi.php`**: Librería personalizada para establecer comunicación segura por cURL con la API de Flow, realizando la firma digital mandatoria mediante encriptación `HMAC SHA256` utilizando la llave secreta.
+* **`app/Models/`**: Modelos de Active Record (`ProductModel`, `OrderModel`, `OrderItemModel`, `ReceiptModel`) para persistencia, estructurados con campos seguros (`allowedFields`) contra inyecciones SQL.
+* **`app/Database/Migrations/`**: Archivos de control de migraciones para versionar la base de datos (creación automática en MySQL de las tablas de usuarios, productos, órdenes y boletas).
+
+#### ⚙️ Tecnologías Usadas:
+* **Backend**: PHP 8.2, CodeIgniter 4 Framework (Patrón MVC).
+* **Base de Datos**: MySQL / MariaDB (con versionado por Migraciones).
+* **Frontend**: HTML5, CSS3, Bootstrap 5.
+* **Integraciones**: API Flow Sandbox (tarjetas de prueba), ngrok (túnel seguro para webhooks locales).
+
+---
+
 ## 📈 Estadísticas de GitHub
 
 <div align="center">
