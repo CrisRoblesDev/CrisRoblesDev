@@ -1,14 +1,20 @@
+```html
 <div align="center">
 
-<h1> Hola­­­­, soy Cristian 👋 </h1>
+<img src="https://i.imgur.com/dOgKFp1.jpeg" width="250" style="border-radius: 15px;"/>
+
+<h1>Hola, soy Cristian 👋</h1>
+
 </div>
+
 <hr>
 
-<h1> Sobre mi </h1>
-<p>➭ Creación de paginas web, escritorio y móviles.<p>
-<p>➭ Soporte en areas de software, hardware y redes.<p>
-<p>➭ Prototipos mediante IA como Stitch, Cloude Design y Figma.<p>
-<p>➭ Creación de herramientas de utilidad como bots, automatizaciones y apps propias. </p>
+<h1>Sobre mi</h1>
+
+<p>➭ Creación de paginas web, escritorio y móviles.</p>
+<p>➭ Soporte en areas de software, hardware y redes.</p>
+<p>➭ Prototipos mediante IA como Stitch, Claude Design y Figma.</p>
+<p>➭ Creación de herramientas de utilidad como bots, automatizaciones y apps propias.</p>
 
 # 💻 Tech Stack
 
@@ -55,3 +61,4 @@ Backend enfocado en automatización, desarrollo web, APIs y gestión de bases de
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/HeidiSQL-1E1E1E?style=for-the-badge">
 </p>
+```
