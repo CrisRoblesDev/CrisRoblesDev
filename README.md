@@ -2,15 +2,14 @@
 
 <img src="https://github.com/CrisRoblesDev.png" width="160" style="border-radius: 50%; border: 4px solid #FFC131; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);"/>
 
-<h1> Hola­­­­, soy Cristian 👋 </h1>
+<h1> Hola­­­­, mi nombre es Cristian 👋 </h1>
 </div>
 <hr>
-
+<h1> ⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑ </h1>
 <h1> Sobre mi </h1>
 <p>➭ Creación de paginas web, escritorio y móviles.<p>
 <p>➭ Soporte en areas de software, hardware y redes.<p>
-
----
+<h1> ⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑ </h1>
 
 ## 💻 Tech Stack & Herramientas
 
