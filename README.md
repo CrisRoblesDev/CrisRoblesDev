@@ -9,6 +9,7 @@
 <h1> Sobre mi
 <p>➭ Creación de paginas web, escritorio y móviles.<p>
 <p>➭ Soporte en areas de software, hardware y redes.<p>
+  
 <p> ⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑⌑ <p>
 
 ## 💻 Tech Stack & Herramientas
