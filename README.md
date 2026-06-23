@@ -1,4 +1,3 @@
-```html
 <div align="center">
 
 <img src="https://i.imgur.com/dOgKFp1.jpeg" width="250" style="border-radius: 15px;"/>
@@ -61,4 +60,3 @@ Backend enfocado en automatización, desarrollo web, APIs y gestión de bases de
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/HeidiSQL-1E1E1E?style=for-the-badge">
 </p>
-```
