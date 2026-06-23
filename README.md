@@ -1,103 +1,101 @@
 <div align="center">
 
-<img src="https://github.com/CrisRoblesDev.png" width="120"
-style="border-radius: 50%; border: 3px solid #FFC131; 
-box-shadow: 0 10px 25px rgba(0,0,0,0.25);"/>
+<img src="https://github.com/CrisRoblesDev.png" width="110"
+style="border-radius: 50%;
+border: 2px solid #FFC131;
+box-shadow: 0 12px 30px rgba(0,0,0,0.35);" />
 
-<h2>Hola, soy Cristian 👋</h2>
+<h1 style="margin-top: 10px;">Cristian Robles</h1>
 
-<p style="max-width: 600px;">
-Desarrollador Web, Desktop y Mobile enfocado en crear soluciones funcionales, automatización y sistemas escalables.
-</p>
-
-<p>
-<img src="https://img.shields.io/github/followers/CrisRoblesDev?label=Seguidores&style=flat-square"/>
-<img src="https://img.shields.io/badge/Proyectos-Destacados-6C5CE7?style=flat-square"/>
+<p style="font-size: 14px; opacity: 0.8;">
+Software Developer • Web • Desktop • Mobile • Automation
 </p>
 
 </div>
 
 ---
 
-## 👤 Sobre mí
+## 🧠 Perfil
 
-- Desarrollo aplicaciones web, escritorio y móviles
-- Soporte en software, hardware y redes
-- Diseño de interfaces modernas y prototipado rápido
-- Automatización e integración de APIs y sistemas
+Desarrollo soluciones digitales enfocadas en rendimiento, automatización y experiencia de usuario.  
+Trabajo con sistemas web, aplicaciones de escritorio y herramientas internas para negocio.
 
 ---
 
-## 💻 Tech Stack
+## ⚙️ Stack
 
-### Backend & Data
-<p>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql"/>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase"/>
-</p>
+**Backend**
+PHP · Python · Django · MySQL · Firebase
 
-### Frontend & UI
-<p>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript"/>
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap"/>
-</p>
+**Frontend**
+React · TypeScript · TailwindCSS · Bootstrap
 
-### Tools & APIs
-<p>
-<img src="https://img.shields.io/badge/Telegram_API-26A5E4?style=flat-square&logo=telegram"/>
-<img src="https://img.shields.io/badge/Discord_API-5865F2?style=flat-square&logo=discord"/>
-</p>
+**Desktop / Tools**
+Tauri · Electron · APIs · Automation Scripts
 
 ---
 
-## 🚀 Proyectos Destacados
-
-### VmOS - Escritorio Virtual Web
-<img src="assets/vmos_desktop.png"
-width="85%"
-style="border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.25);"/>
-
-Sistema tipo escritorio virtual en navegador con ventanas, gestor de archivos y apps integradas.
+## 🚀 Proyectos
 
 ---
 
-### KatPos - Sistema POS
-<img src="assets/katpos_sales.png"
-width="85%"
-style="border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.25);"/>
-
-Sistema de ventas rápido, offline y optimizado para comercios.
-
----
-
-### Hikaro - Traductor Japonés
-<img src="assets/hikaro_translator.png"
-width="85%"
-style="border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.25);"/>
-
-Traductor con base local + API para japonés con historial y Romaji.
-
----
-
-### E-commerce Flow
-<img src="assets/ecommerce_flow.png"
-width="85%"
-style="border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.25);"/>
-
-Sistema de pago integrado con Flow (Chile) y validación segura de transacciones.
-
----
-
-## 📊 GitHub Stats
+### 🧩 VmOS — Desktop Web System
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=CrisRoblesDev&show_icons=true&theme=radical&hide_border=true" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CrisRoblesDev&layout=compact&theme=radical&hide_border=true" width="48%"/>
+<img src="assets/vmos_desktop.png"
+width="90%"
+style="border-radius: 14px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.35);" />
+</p>
+
+Sistema tipo escritorio virtual en navegador con ventanas flotantes, apps modulares y persistencia en la nube.
+
+---
+
+### 🧾 KatPos — POS System
+
+<p align="center">
+<img src="assets/katpos_sales.png"
+width="90%"
+style="border-radius: 14px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.35);" />
+</p>
+
+Sistema de punto de venta rápido, offline-first, diseñado para alto rendimiento en comercios reales.
+
+---
+
+### 🌐 Hikaro — Japanese Translator App
+
+<p align="center">
+<img src="assets/hikaro_translator.png"
+width="90%"
+style="border-radius: 14px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.35);" />
+</p>
+
+Aplicación híbrida con diccionario local + API online, optimizada para aprendizaje de japonés.
+
+---
+
+### 💳 Flow E-commerce System
+
+<p align="center">
+<img src="assets/ecommerce_flow.png"
+width="90%"
+style="border-radius: 14px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.35);" />
+</p>
+
+Integración segura con Flow (Chile) con validación de pagos, webhooks y control transaccional.
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=CrisRoblesDev&show_icons=true&hide_border=true&theme=tokyonight" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CrisRoblesDev&layout=compact&hide_border=true&theme=tokyonight" width="48%"/>
 </p>
 
 ---
