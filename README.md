@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="[https://i.imgur.com/dOgKFp1.jpeg](https://imgur.com/m9sX1pS)" width="250" style="border-radius: 15px;"/>
+<img src="https://imgur.com/a/dOgKFp1" width="250" style="border-radius: 15px;"/>
 
 <h1>Hola, soy Cristian 👋</h1>
 
