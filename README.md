@@ -5,13 +5,13 @@
 <h1> Hola­­­­, mi nombre es Cristian 👋 </h1>
 </div>
 <hr>
-<h1> ▶ Sobre mi </h1>
+<h1> ⌑ Sobre mi ⌑</h1>
 <p>➭ Creación de paginas web, escritorio y móviles.<p>
 <p>➭ Soporte en areas de software, hardware y redes.<p>
 
-## 💻 Tech Stack & Herramientas
+<h1>💻 Técnologias en proceso</h1>  
 
-### ⚙️ Backend & Bases de Datos
+<h2>Backend & Bases de Datos</h2>
 <p>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
-### 🎨 Frontend & Escritorio
+<h2>Frontend & Escritorio</h2>
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
 </p>
 
-### 🔗 APIs, Integraciones & Herramientas
+<h2>APIs, Integraciones & Herramientas</h2>
 <p>
   <img src="https://img.shields.io/badge/Telegram_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram API">
   <img src="https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord API">
@@ -47,15 +47,16 @@
 
 ### 🖥️ 1. VmOS - Escritorio Virtual Web Multi-Ventana
 Un sofisticado entorno de escritorio virtual interactivo basado en *Glassmorphism* (efecto de cristal esmerilado) que se ejecuta en cualquier navegador web.
-
-### Prototipo
 <div align="center">
-  <img src="assets/vmos_desktop.png" alt="VmOS Desktop Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+<h1>Prototipo</h1>
+<div align="center">
+  <img src="assets/vmos_desktop.png" alt="VmOS Desktop Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-### Final
+<h1>Final</h1>
 <div align="center">
-  <img src="assets/VmOS.png" alt="VmOS Desktop Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+  <img src="assets/VmOS.png" alt="VmOS Desktop Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
 </div>
 
 * **Contexto del Proyecto**: Diseñado como un entorno sandbox web interactivo para integrar múltiples herramientas de utilidad y entretenimiento (editores, reproductores de media, emuladores) en una sola pestaña del navegador. Resuelve la necesidad de tener un sistema de escritorio virtual modular, escalable y persistente sin sobrecargar el hardware del cliente.
@@ -69,15 +70,16 @@ Un sofisticado entorno de escritorio virtual interactivo basado en *Glassmorphis
 
 ### 🛒 2. KatPos - Sistema de Punto de Venta (POS) de Alto Rendimiento
 Una solución de facturación, caja y gestión de inventario robusta y ultra-rápida compilada para escritorio.
-
-### Prototipo
 <div align="center">
-  <img src="assets/katpos_sales.png" alt="KatPos Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+<h1>Prototipo</h1>
+<div align="center">
+  <img src="assets/katpos_sales.png" alt="KatPos Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-### Final
+<h1>Final</h1>
 <div align="center">
-  <img src="assets/KatPOS.png" alt="KatPos Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+  <img src="assets/KatPOS.png" alt="KatPos Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
 </div>
 
 * **Contexto del Proyecto**: Desarrollado para pequeños y medianos comercios locales que requieren un punto de venta (POS) y control de stock extremadamente rápido. Al ejecutarse de forma local y offline en el escritorio, evita las caídas de internet y la latencia de los servidores en la nube típicos de los sistemas web convencionales.
@@ -92,15 +94,16 @@ Una solución de facturación, caja y gestión de inventario robusta y ultra-rá
 
 ### 🇯🇵 3. Hikaro - Traductor e Historial de Japonés Local & API
 Una aplicación de escritorio híbrida para traducción y aprendizaje del idioma japonés.
-
-### Prototipo
 <div align="center">
-  <img src="assets/hikaro_translator.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+<h1>Prototipo</h1>
+<div align="center">
+  <img src="assets/hikaro_translator.png" alt="Hikaro Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
 </div>
 
-### Final
+<h1>Final</h1>
 <div align="center">
-  <img src="assets/Hikaro.png" alt="Hikaro Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+  <img src="assets/Hikaro.png" alt="Hikaro Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
 </div>
 
 * **Contexto del Proyecto**: Una herramienta interactiva de escritorio desarrollada para entusiastas, estudiantes y traductores de idioma japonés. Combina búsquedas binarias en un diccionario local español-japonés de más de 170k definiciones con traducciones dinámicas en línea mediante una API externa para frases complejas.
@@ -114,9 +117,11 @@ Una aplicación de escritorio híbrida para traducción y aprendizaje del idioma
 
 ### 💳 4. E-commerce Flow - Pasarela de Pago Integrada
 Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena **Flow** (Webpay, Mach, Servipag, etc.).
-
 <div align="center">
-  <img src="assets/ecommerce_flow.png" alt="E-commerce Flow Mockup" width="90%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+<h1>Final</h1>
+<div align="center">
+  <img src="assets/ecommerce_flow.png" alt="E-commerce Flow Mockup" width="60%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);"/>
+</div>
 </div>
 
 * **Contexto del Proyecto**: Prototipo transaccional desarrollado para resolver la complejidad técnica de conectar una tienda virtual con el proveedor de pagos chileno Flow (Webpay/Mach), asegurando que las transacciones sean válidas, que no haya manipulación de precios en el cliente y que las boletas se emitan automáticamente de forma asíncrona tras la confirmación de pago.
@@ -126,26 +131,7 @@ Un sistema completo de tienda virtual integrado con la pasarela de pagos chilena
   * **Webhooks & cURL (Flow API)**: Gestiona la recepción de notificaciones asíncronas de Flow en el callback `/flow/confirm` para procesar el pago y emitir la boleta fiscal en la base de datos de manera invisible para el cliente.
   * **MySQL / MariaDB**: Almacena las órdenes transaccionales, el desglose de productos comprados (`order_items`) y las boletas emitidas (`receipts`) con integridad referencial.
   * **ngrok**: Abre un túnel seguro a internet para permitir que los servidores de Flow se comuniquen con el webhook local de desarrollo.
-
----
-
-## 📈 Estadísticas de GitHub
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=CrisRoblesDev&show_icons=true&theme=radial&hide_border=true" alt="Estadísticas de Cristian" width="100%"/>
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CrisRoblesDev&layout=compact&theme=radial&hide_border=true" alt="Lenguajes más usados" width="100%"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
+<hr>
 <div align="center">
   <h3>📫 ¡Conectemos!</h3>
   <p>Si te interesa colaborar en algún desarrollo, tienes dudas sobre mis proyectos o buscas un desarrollador de software a medida, ¡contáctame!</p>
